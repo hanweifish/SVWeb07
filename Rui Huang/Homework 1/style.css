@@ -7,7 +7,7 @@ body {
 .header{
     width: 1010px;
     height: 110px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     box-sizing: border-box;
     }
 
@@ -17,21 +17,23 @@ p.title {
     text-align:center;
     font-size:48px;
     font-weight: normal;
-    transform: translate(-2px,-13px);
+    transform: translate(-2px,-6px);
 }
 
 .left{ 
-    border: 1px solid red; 
+    /*border: 1px solid red; */
     box-sizing: border-box;
+    margin-top: -40px;
     width: 420px;
     height: 1110px;
-    display: inline-block;
+    float: left;
 }
 
 .right {
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     box-sizing: border-box;
-    display: inline-block;
+    margin-top: -40px;
+    float: left;
     width: 590px;
     height: 1110px;
 }
@@ -64,7 +66,7 @@ h2.subtitle{
 
 ul.list{
     color:#666666;
-    transform: translate(30px,21px);
+    transform: translate(32px,23px);
 }
 
 
@@ -73,28 +75,72 @@ p.upright {
     font-family: Verdana;
     font-size:25px;
     font-weight: 900;
-    padding: 15px; 
+    margin-top:  0px; 
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    width: 590px;
+    height: 50px;
+    padding-left: 17px;
+    padding-top: 6px;
+    word-spacing: -2px;
+
 }
 
 .downright {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     box-sizing: border-box;
-    display: inline-block;
+    margin-top:  -29px; 
     width: 590px;
-    height: 800px;
-    padding: 15px; 
+    height: 700px;
+    padding-top: 3px; 
+    padding-left: 18px;
+    padding-right: 40px;
 }
 
 li{
     height:32px;
 }
 
-p.para{
-    line-height: 1;
+p.para1{
+    line-height: 33px;
     color:#666666;
-    font-size:20px;
+    font-size:16px;
     font-family: Verdana; 
     text-align:left; 
+    font-weight: normal;
+}
+
+p.para2{
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    width: 590px;
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -17px;
+    line-height: 33px;
+    color:#666666;
+    font-size:16px;
+    font-family: Verdana; 
+    text-align:left; 
+    font-weight: normal;
+    padding-left: 16px;
+    padding-right: 35px;
+}
+p.para3{
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    width: 590px;
+    height: 100px;
+    margin-top: 102px;
+    margin-left: -17px;
+    padding-left: 16px;
+    padding-right: 35px; 
+    line-height: 33px;
+    color:#666666;
+    font-size:16px;
+    font-family: Verdana; 
+    text-align:left; 
+    font-weight: normal;
 }
 
 
