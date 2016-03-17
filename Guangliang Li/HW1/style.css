@@ -1,0 +1,70 @@
+/* Styles go here */
+body {
+  font-family: Verdana;
+  color:#666666;
+  line-height: 32px;
+  letter-spacing: 0.35px;
+}
+
+header {
+  font-size: 1.3em;
+  text-align: center;
+  letter-spacing: 0.7px;
+  font-weight: bolder;
+}
+
+h1 {
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color:#f07c17;
+  letter-spacing: 1.2px;
+}
+
+article {
+  float: right;
+  width: 560px;
+  line-height: inherit;
+}
+
+img {
+  width: 370px;
+  height: 375px;
+}
+
+ul {
+  width: 355px;
+  padding: 0px 70px;
+  margin-top: 2px; 
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.container {
+  width: 960px;
+  height: 855px;
+  padding: 3px 34px;
+}
+
+.Main-features {
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  width: 370px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  height: 222px;
+
+}
+
+.subtitle {
+  padding: 26px 31px;
+  margin-bottom: 0px;
+}
+
+
