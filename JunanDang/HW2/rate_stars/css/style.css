@@ -1,0 +1,14 @@
+.empty-star {
+  background: url('../data/star_empty.png') no-repeat;
+  display: inline-block;
+  height: 28px;
+  width: 32px;
+}
+
+.hover-star {
+  background: url('../data/star_full.png') no-repeat;
+}
+
+.highlight-star {
+  background: url('../data/star_highlight.png') no-repeat;
+}
