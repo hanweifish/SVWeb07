@@ -1,0 +1,54 @@
+function rateOver1(x) {
+  x.style.fill = "yellow";
+}
+function rateOut1(x) {
+  x.style.fill = "#A9A9A9";
+}
+
+function rateOver2(x) {
+  x.style.fill = "yellow";
+  document.getElementById("star1").style.fill = "yellow";
+}
+function rateOut2(x) {
+  x.style.fill = "#A9A9A9";
+  document.getElementById("star1").style.fill = "#A9A9A9";
+}
+
+function rateOver3(x) {
+  x.style.fill = "yellow";
+  document.getElementById("star1").style.fill = "yellow";
+  document.getElementById("star2").style.fill = "yellow";
+}
+function rateOut3(x) {
+  x.style.fill = "#A9A9A9";
+  document.getElementById("star1").style.fill = "#A9A9A9";
+  document.getElementById("star2").style.fill = "#A9A9A9";
+}
+
+function rateOver4(x) {
+  x.style.fill = "yellow";
+  document.getElementById("star1").style.fill = "yellow";
+  document.getElementById("star2").style.fill = "yellow";
+  document.getElementById("star3").style.fill = "yellow";
+}
+function rateOut4(x) {
+  x.style.fill = "#A9A9A9";
+  document.getElementById("star1").style.fill = "#A9A9A9";
+  document.getElementById("star2").style.fill = "#A9A9A9";
+  document.getElementById("star3").style.fill = "#A9A9A9";
+}
+
+function rateOver5(x) {
+  x.style.fill = "yellow";
+  document.getElementById("star1").style.fill = "yellow";
+  document.getElementById("star2").style.fill = "yellow";
+  document.getElementById("star3").style.fill = "yellow";
+  document.getElementById("star4").style.fill = "yellow";
+}
+function rateOut5(x) {
+  x.style.fill = "#A9A9A9";
+  document.getElementById("star1").style.fill = "#A9A9A9";
+  document.getElementById("star2").style.fill = "#A9A9A9";
+  document.getElementById("star3").style.fill = "#A9A9A9";
+  document.getElementById("star4").style.fill = "#A9A9A9";
+}

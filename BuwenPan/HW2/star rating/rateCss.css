@@ -1,0 +1,12 @@
+//css
+body {
+  display: inline-block;
+}
+p {
+  font-family: Simsun;
+  font-size: 150%;
+  color: black;
+}
+svg {
+	fill:#A9A9A9;
+}
