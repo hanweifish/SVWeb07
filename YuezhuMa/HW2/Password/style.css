@@ -1,0 +1,31 @@
+form
+{
+	width:305px;
+	padding:15px;
+	height:8em;
+	margin:0 20px 20px 0;
+}
+
+form fieldset
+{
+	border:none;
+}
+
+form input.text, form input.password, form textarea
+{
+	padding:4px 6px 3px 6px;
+	border:1px solid black;
+}
+form textarea
+{
+	height:3.3em;
+}
+
+form label
+{
+	display:block;
+	margin:0 0 10px 0;
+}
+
+
+
