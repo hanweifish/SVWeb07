@@ -22,6 +22,10 @@
   border-top: 1px solid #01A9DB;
   text-align: center;
 }
+.tags li:hover {
+  background-color: #CEECF5;
+  transform: translate(0, 1px);
+}
 .highlight {
   border-top: -5px;
   border-bottom: none;
@@ -29,6 +33,7 @@
   text-shadow: 1px 1px 2px #084B8A;
   box-shadow: 0 -8px 6px -8px #01A9DB;
 }
+
 main {
   height: 300px;
   border: 1px solid #01A9DB;
