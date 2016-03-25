@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+  	<title>Star-Rating</title>
+  	<meta name="description" content="">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  	<div class="container">
+    	<h3>Star Rating</h3>
+
+    	<h5>Click to rate:</h5>
+    	<div class='starrr' id='star1'></div>
+    	<div>&nbsp;
+      		<span class='your-choice-was' style='display: none;'>
+        	Your rating was <span class='choice'></span>.
+      	</span>
+    	</div>
+      <br>
+    	<h5>Advanced:</h5>
+	    <div class='starrr' id='star2'></div>
+	    <br />
+	    <input type='text' name='rating' value='3' id='star2_input' />
+
+   
+  	</div>
+
+  	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+  	<script src="index.js"></script>
+  	<script>
+    $('#star1').starrr({
+      	change: function(e, value){
+        	if (value) {
+          		$('.your-choice-was').show();
+          		$('.choice').text(value);
+        	} else {
+          		$('.your-choice-was').hide();
+        	}
+      	}
+    });
+
+    var $s2input = $('#star2_input');
+    $('#star2').starrr({
+      	max: 10,
+      	rating: $s2input.val(),
+      	change: function(e, value){
+        	$s2input.val(value).trigger('input');
+      	}
+    });
+
+  	</script>
+</body>
+</html>
+
+
+
+
+
+
