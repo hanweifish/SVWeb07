@@ -1,0 +1,34 @@
+body {
+	margin: 100px;
+}
+
+.tabs {
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+
+.tabs li {
+	display: inline;
+	cursor: pointer;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+li.activetab {
+	border: black 1px solid;
+	border-bottom: white 1px solid;
+}
+
+.content {
+	border: black 1px solid;
+	width: 500px;
+	height: 200px;
+}
+
+.content p {
+	display: none;
+}
+
+p.active {
+	display: block;
+}
